@@ -329,6 +329,9 @@ section{
 .swiper-buttons > div::after{
     display: none;
 }
+.swiper-pagination{
+    display: none;
+}
 .swiper-pagination-bullet{
     width: 10px;
     height: 10px;
@@ -796,6 +799,9 @@ section{
 @media all and (max-width: 650px) {
     .swiper-buttons{
         display: none;
+    }
+    .swiper-pagination{
+        display: block;
     }
     .modal{
         width: 65%;
