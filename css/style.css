@@ -96,6 +96,18 @@ section{
 .menu a:hover{
     color: var(--mainColor);
 }
+.menu a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: var(--mainColor);
+    margin: 0 auto;
+    transition: all 0.2s;
+}
+.menu a:hover::after{
+    width: 100%;
+}
 
 .header-buttons{
     display: flex;
